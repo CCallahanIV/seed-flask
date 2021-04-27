@@ -1,6 +1,6 @@
 include LICENSE.rst
-include flaskr/schema.sql
-graft flaskr/static
-graft flaskr/templates
+include seed/schema.sql
+graft seed/static
+graft seed/templates
 graft tests
 global-exclude *.pyc
